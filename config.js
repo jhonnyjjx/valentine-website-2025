@@ -5,7 +5,7 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Beulah",
+    valentineName: "Sahda",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
@@ -22,10 +22,10 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
+            text: "Do you love me?",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
             noBtn: "Nah",                                               // Text for "No" button
-            secretAnswer: "I don't like him, I love him! ❤️"           // Secret hover message
+            secretAnswer: "Of course I do Djounie ❤️"           // Secret hover message
         },
         second: {
             text: "How much do you love me?",                          // For the love meter
@@ -33,7 +33,7 @@ const CONFIG = {
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentines date on February the 15th, 2025? 🌹", // The big question!
+            text: "Will you be my Valentines date on February the 14th, 2025? 🌹", // The big question!
             yesBtn: "Yes!",                                             // Text for "Yes" button
             noBtn: "Nah"                                                 // Text for "No" button
         }
@@ -43,14 +43,14 @@ const CONFIG = {
     // They show up depending on how far they slide the meter
     loveMessages: {
         extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
+        high: "Always and forever! 💝",              // Shows when they go past 1000%
         normal: "And beyond! 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "You had no choice but to say yes anyway haha. I love you.",
-        message: "I can't wait to spend time with you!",
+        title: "Not going ot lie, it wasn't even a question!",
+        message: "I can't wait for us to enjoy the concert and a nice dinner together!",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
@@ -78,7 +78,7 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/dowkep639/video/upload/v1738867263/The_Weeknd_-_The_Party_The_After_Party_cpmbp9.mp3", // Music streaming URL
+        musicUrl: "https://res.cloudinary.com/dowkep639/video/upload/v1739243474/J._Cole_-_She_s_Mine_Pt._2_Lyrics_lqen5k.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
