@@ -49,7 +49,7 @@ const CONFIG = {
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Not going ot lie, it wasn't even a question!",
+        title: "Not going to lie, it wasn't even a question!",
         message: "I can't wait for us to enjoy the concert and a nice dinner together!",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
